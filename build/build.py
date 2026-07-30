@@ -7,3 +7,7 @@ for script in ("realweb.py", "reallogo.py"):
     print(f"→ {script}")
     subprocess.run([sys.executable, script], check=True)
 print("Done. See ../output/")
+
+print("→ pages.py (GitHub Pages site)")
+import pages
+pages.build()
