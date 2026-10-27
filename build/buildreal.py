@@ -2,7 +2,7 @@ import json
 A=json.load(open('assets.json'))
 A['p_cole']=A.get('p_wade')  # Cole reuses Wade's portrait
 css=open('d9real.css').read()
-fontface="@font-face{font-family:'Safiro';src:url(%s) format('woff2');font-weight:400 800;font-display:swap}\n" % A['safiro']
+fontface="@font-face{font-family:'Safiro';src:url(data:font/%s;base64,%s) format('%s');font-weight:400 800;font-display:swap}\n" % (A['safiro_fmt'], A['safiro'], A['safiro_fmt'])
 LOGO=A['d9logo']
 
 def head(t):
