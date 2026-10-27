@@ -215,6 +215,7 @@ a{color:var(--purple);text-decoration:none}
 table{width:100%;border-collapse:collapse;margin:14px 0;font-size:13.5px}
 th,td{text-align:left;padding:10px 12px;border-bottom:1px solid rgba(20,20,20,.12);vertical-align:top}
 .dark th,.dark td{border-color:rgba(255,255,255,.16)}
+td{color:var(--ink)}.dark td{color:#fff}
 th{font-weight:700;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--gray)}.dark th{color:var(--gray-d)}
 .mono{font-variant-numeric:tabular-nums;font-weight:700}
 ul.clean{list-style:none;margin:6px 0 16px}ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;font-size:14px;max-width:64ch}
